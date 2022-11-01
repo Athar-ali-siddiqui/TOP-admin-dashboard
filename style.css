@@ -2,7 +2,13 @@
     margin: 0px;
     padding: 0px;
     font-family: Lato;
+   
 }
+i{
+    padding: 0px 8px 0px 4px;
+    
+}
+
 .container{
     display: flex;
     height: 100vh;
@@ -16,7 +22,7 @@
     /* display: flex;
     flex-direction: column;
     gap: 24px; */
-    width: 15%;
+    width: 20%;
     height: 110%;
     
 }
@@ -31,7 +37,7 @@ ul{
 }
 li{
     list-style-type: none;
-    margin-top: 10px;
+    margin-top: 16px;
 }
 a{
     color: inherit;
@@ -52,6 +58,11 @@ a{
     margin-left: 20px;
     /* width: 100%; */
 }
+.notification , #label-search{
+    font-size: 24px;
+    color :#000022;
+}
+
 .main-content>.first , .main-content>.first>.left , .main-content>.first>.right {
     display: flex;
     flex-direction: row;
